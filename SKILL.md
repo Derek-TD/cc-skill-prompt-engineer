@@ -1,6 +1,6 @@
 ---
 name: cc-skill-prompt-engineer
-description: Prompt engineering assistant. Activate this skill whenever the user includes ## anywhere in their message — even at the start, middle, or end. The ## marker means the user wants their rough idea converted into a structured, optimized prompt. Also activate when the user explicitly asks to "improve my prompt", "rewrite this prompt", "engineer a prompt for me", or similar phrasing. Do NOT activate for regular questions, code tasks, or general conversation — only when ## appears or prompt engineering is explicitly requested.
+description: Prompt engineering assistant. Activate this skill whenever the user types /prompt-engineer (optionally followed by their rough idea), or explicitly asks to "improve my prompt", "rewrite this prompt", "engineer a prompt for me", or similar phrasing. The skill converts a rough idea into a structured, optimized 5-component prompt. Do NOT activate for regular questions, code tasks, or general conversation — only on /prompt-engineer or an explicit prompt-engineering request.
 ---
 
 # Prompt Engineer / Prompt 工程师
