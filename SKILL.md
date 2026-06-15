@@ -114,7 +114,7 @@ description: Prompt engineering assistant. Activate this skill whenever the user
 ## 示例
 
 **用户输入：**
-`## 帮我写邮件给客户解释延误`
+`/prompt-engineer 帮我写邮件给客户解释延误`
 
 **优化后的 Prompt：**
 
