@@ -11,7 +11,7 @@ description: Prompt engineering assistant. Activate this skill whenever the user
 
 ## 触发与提取
 
-用户消息中出现 `##` 时，将 `##` 之后（或之前/周围）的文字视为待工程化的原始 prompt。其余部分（如补充说明）作为上下文参考。
+用户输入 `/prompt-engineer` 时，将其后跟随的文字视为待工程化的原始 prompt；若 `/prompt-engineer` 单独出现（无跟随文字），则把同一条消息的其余内容作为原始 prompt。补充说明作为上下文参考。
 
 ---
 
